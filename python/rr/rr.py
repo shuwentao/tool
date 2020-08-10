@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """
+remove repetition in file 
 """
 
 import sys
@@ -14,10 +15,9 @@ with open(sys.argv[1],"r") as f:
         li.append(line)
         line = f.readline()
 
-#print(li)
-
 #remove the repetition
 
 newli=list(set(li))
-
-print(newli)
+newli.sort()
+for i in newli:
+  print(i,end="")
