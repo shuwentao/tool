@@ -1,0 +1,60 @@
+s8 cu_data_split_mode 5 7 256
+s16 cu_data_mvd 256 2 2
+int cu_data_pb_part 256
+int cu_data_tb_part 256
+u8  cu_data_pred_mode 256
+u8 cu_data_mvr_idx 256
+u8 cu_data_umve_flag 256
+u8 cu_data_umve_idx 256
+u8 cu_data_skip_idx 256
+u8 cu_data_affine_flag 256
+u8 cu_data_ipf_flag 256
+u8 cu_data_mvp_from_hmvp_flag 256
+u8 cu_data_mpm 2 256
+s8 cu_data_ipm 2 256
+s8 cu_data_refi 256 2
+int cu_data_num_nz_coef 3 256
+int rpm_num_refp 2
+s16 coef 3 4096
+int modeIdc 3
+int typeIdc 3
+int startBand 3
+int startBand2 3
+int deltaband 3
+u8 slice_sao_enable 3
+int offset 3 32
+int me_line_map_ptr_map_scu_inner 2 16 16
+int me_line_map_ptr_map_cu_mode_inner 2 16 16
+int me_line_map_ptr_map_scu_above_line 2 960
+int me_line_map_ptr_map_cu_mode_above_line 2 960
+
+int log2_culine
+int slice_type
+int max_cuwh
+int pic_width
+int pic_height
+int sample_adaptive_offset_enable_flag
+int lcu_cnt
+int umve_enable_flag
+int num_of_hmvp_cand
+int affine_enable_flag
+int amvr_enable_flag
+int emvr_enable_flag
+int dt_intra_enable_flag
+int position_based_transform_enable_flag
+int tscpm_enable_flag
+int ipf_enable_flag
+int pic_width_in_scu
+int pic_width_in_lcu
+int x_lcu
+int y_lcu
+int x_pel
+int y_pel
+int lcu_num
+int ptr
+int MergeLeftAvail
+int MergeUpAvail
+int fetch_output_me_line_map_ptr_min_scu_x
+int fetch_output_me_line_map_ptr_min_scu_y
+int fetch_output_me_line_map_ptr_above_line_idx
+int fetch_output_me_line_map_ptr_curr_ctu_idx
